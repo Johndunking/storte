@@ -15,7 +15,7 @@ function Contact() {
         <h5 class="card-title services-text" style={{paddingTop:'50px', fontSize:'25px'}}>Kieth, Tucker <br />
         S.T.O.R.T.E <br />
         Owner & C.E.O</h5>
-        <p class="card-text" style={{paddingTop:'100px', paddingBottom:'20px', fontFamily: 'Merriweather', color:'#3D3322',textShadow: '-1px 0 white, 0 1px white, 1px 0 white, 0 -1px white', fontSize:'18px', fontWeight:'bold'}}>916-420-5764 <br /> Please give us a call first for a full list of services offered.</p>
+        <p class="card-text" style={{paddingTop:'100px', paddingBottom:'20px', fontFamily: 'Merriweather', color:'#3D3322',textShadow: '-1px 0 white, 0 1px white, 1px 0 white, 0 -1px white', fontSize:'18px', fontWeight:'bold'}}>916-420-5764 <br /> Please give us a call <br /> for a full list of services offered.</p>
       </div>
         <div className="info-map">
                     S.T.O.R.T.E,
