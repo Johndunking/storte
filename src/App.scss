@@ -1,0 +1,279 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+.nav-link, .nav-brand, .custom-brand {
+  cursor: pointer;
+}
+
+.bg-white {
+  background-color: rgba(230, 226, 216, 0.8) !important; 
+  box-shadow: 0px 0px 8px 8px rgba(230, 226, 216) inset; 
+}
+
+.nav-link {
+  font-weight: bold; /* You can adjust the font weight as needed */
+  font-size: 20px;
+  color: #3D3322;
+  text-shadow: -0.5px 0 white, 0 0.5px white, 0.5px 0 white, 0 -0.5px white;
+  font-family: agbalumo;
+}
+
+.assistant{
+  display: none;
+}
+
+
+.custom-brand {
+  padding-left: 10px; /* Adjust the padding value to your preference */
+}
+
+
+#home{
+  background-image: url('https://images.unsplash.com/reserve/oIpwxeeSPy1cnwYpqJ1w_Dufer%20Collateral%20test.jpg?auto=format&fit=crop&q=80&w=2815&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center center; /* Center the background image */
+  min-height: 100vh; /* Set minimum height to 100% of viewport height */
+  min-width: 100vw; /* Set minimum width to 100% of viewport width */
+  overflow: hidden;
+  box-shadow: 0px 0px 10px 10px rgba(230, 226, 216) inset; 
+}
+
+#services{
+  background-image: url('https://dominotiers.com/3331-large_default/old-brick-wall.jpg');
+  background-size: cover;
+  background-position: center center; /* Center the background image */
+  min-height: 100vh; /* Set minimum height to 100% of viewport height */
+  min-width: 100vw; /* Set minimum width to 100% of viewport width */
+  overflow: hidden;
+  box-shadow: 0px 0px 10px 10px rgba(230, 226, 216) inset;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('https://images.unsplash.com/photo-1507747018941-2d0d0773947e?auto=format&fit=crop&q=60&w=800&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGJyaWNrd2FsbHxlbnwwfHwwfHx8MA%3D%3D');
+
+}
+
+#about {
+  background-color: rgba(230, 226, 216, 0.5); /* Replace #FF0000 with your desired color */
+  min-height: 50vh;
+  min-width: 100vw;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px 10px rgba(230, 226, 216) inset; 
+}
+
+#contact{
+  background-image: url('https://coolwallpapers.me/picsup/5458659-telephone-wallpapers.jpg');
+  background-size: cover;
+  background-position: center center; /* Center the background image */
+  min-height: 100vh; /* Set minimum height to 100% of viewport height */
+  min-width: 100vw; /* Set minimum width to 100% of viewport width */
+  overflow: hidden;
+  box-shadow: 0px 0px 10px 10px rgba(230, 226, 216) inset; 
+}
+
+.home{
+  width: 100vh;
+  height: 100vh;
+}
+.home-context{
+  font-family: agbalumo;
+  margin-top:450px;
+  position: relative;
+  margin-left: -700px;
+  text-align: center;
+  color: #3D3322;
+  font-weight: bold;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  
+}
+
+.mod-button {
+    background-color: rgba(230, 226, 216)!important;
+    margin-top: 70px;
+    margin-left: -680px;
+    margin-right: 0px;
+    color:#6c757d;
+    border: 2px solid white;
+    font-weight: bold;
+
+  }
+  .button-container {
+    display: flex;
+    justify-content: center; /* Center the button horizontally */
+    align-items: center; /* Center the button vertically */
+  }
+
+  .mod-button:active, .mod-button:hover {
+    color:#3D3322;
+    border: 2px solid white;
+  }
+
+
+.home-logo {
+  position: right center;
+  top: 150px;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 4s  forwards;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.info-map {
+  position: absolute;
+  background-color: #3D3322;
+  top: 3607px;
+  right: 4.6%;
+  z-index: 999999;
+  width: 175px;
+  height: 100px;
+  padding: 10px;
+  color:#D6DBDF;
+  font-family: Helvetica;
+  font-size: 15px;
+  font-weight: 300;
+  opacity: 0.8;
+  text-align: left; 
+
+  span {
+      font-size: 12px;
+      display: block;
+      padding-top: 0px;
+      color: #F08080;
+  }
+}
+
+.map-wrap {
+  background: rgba(8, 253, 216, 0.1);
+  float: right;
+  width: 33%;
+  height: 100%;
+  margin-top: -380px;
+}
+
+.leaflet-container {
+  width: 30vw;
+  height: 40vh;
+  position: relative;
+}
+
+.col {
+  display: flex;
+  justify-content: center;
+}
+
+.col {
+  padding: 20px;
+}
+
+.card-img-top, .card-img-bottom {
+  opacity: 0.5;
+}
+
+.card{
+  border: none;
+}
+
+.services-text {
+  color: #3D3322;
+  font-weight: bold;
+  padding-top: 20px;
+  font-family: agbalumo;
+  font-size: 35px;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.custom-modal {
+  background-color: rgba(230, 226, 216);
+  text-align: center;
+  border: black;
+}
+
+
+@media screen and (max-width: 1200px)  {
+  
+  #home { 
+    background-image: url('https://images.unsplash.com/reserve/oIpwxeeSPy1cnwYpqJ1w_Dufer%20Collateral%20test.jpg?auto=format&fit=crop&q=80&w=2815&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: 75% center; /* Center the background image */
+    max-width: 100%;
+    background-color: rgba(230, 226, 216, 0.5);
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 10px 10px rgba(230, 226, 216) inset;  
+    }
+
+    .home-context {
+      margin-left: 50px;
+      margin-top: 400px;
+      text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+      max-width: 100%;
+      position: relative;
+      
+    }
+    .mod-button {
+      z-index: 1;
+      bottom: 0vw;
+      right: 0vw;
+      max-width: 100%;
+      position: absolute;
+      white-space: nowrap;
+      color:#6c757d;
+      outline: none;
+    }
+
+    .info-map{
+      display: none;
+    }
+    #contact{
+      background-image: url('https://coolwallpapers.me/picsup/5458659-telephone-wallpapers.jpg');
+      background-size: cover;
+      background-position: bottom center; /* Center the background image */
+      min-height: 100vh; /* Set minimum height to 100% of viewport height */
+      min-width: 100vw; /* Set minimum width to 100% of viewport width */
+      overflow: hidden;
+      background-repeat: no-repeat;
+      background-color: rgba(230, 226, 216, 0.5);
+      box-shadow: 0px 0px 10px 10px rgba(230, 226, 216) inset; 
+    }
+
+    .map-wrap {
+      background: rgba(8, 253, 216, 0.1);
+      float: right;
+      width: 33%;
+      height: 100%;
+      margin-top: -400px;
+      margin-right: 0px;
+    }
+}
+
+@media screen and (max-height: 650px) {
+  .home-context {
+    margin-left: 80px;
+      margin-top: 400px;
+      text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+      max-width: 100%;
+      position: relative;
+    
+  }
+}
+
+@media screen and (max-height: 450px) {
+  .home-context {
+    margin-left: 200px;
+    margin-top: 100px;
+    font-size: 25px;
+    text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+    max-width: 100%;
+    position: relative;
+    
+  }
+}
+
+
+
