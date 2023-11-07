@@ -42,7 +42,7 @@ function Services() {
     <div class="card" style={{width: '38rem', backgroundColor: 'rgba(230, 226, 216, 0.5)', fontFamily:'agbalumo'}}>
   <img src="https://media.istockphoto.com/id/1094152694/photo/men-washing-driveway.webp?b=1&s=612x612&w=0&k=20&c=kPn1RyAkPWP5kYnjYHvWclSiSLlKmv0wfy9kcGQLThU=" class="card-img-top" alt="..."/>
   <div class="card-body">
-    <p class="card-text" style={{fontFamily:'Merriweather', fontWeight:'bold', textShadow: '-1px 0 white, 0 1px white, 1px 0 white, 0 -1px white',}}>Gutter cleaning and install (new/repair)! <br /> Pressure washing services!</p>
+    <p class="card-text" style={{fontFamily:'Merriweather', fontWeight:'bold', textShadow: '-1px 0 white, 0 1px white, 1px 0 white, 0 -1px white'}}>Gutter cleaning and install (new/repair)! <br /> Pressure washing services!</p>
   </div>
 </div>
     </div>

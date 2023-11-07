@@ -22,7 +22,7 @@ function CustomNavbar() {
     <Navbar expand="lg" fixed="top" className='nav bg-white'>
     
       <Container className="container justify-content-left">
-      <Link to="services" className="navbar-brand custom-brand" onClick={collapseNav}>
+      <Link to="home" className="navbar-brand custom-brand" onClick={collapseNav}>
           <img src={storte2} alt="storte logo" style={{ width: '4rem' }} className='home-logo' />
         </Link>
         
