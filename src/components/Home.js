@@ -43,10 +43,10 @@ function Home() {
       </div>
       <Modal show={showModal} onHide={handleCloseModal}  >
         <Modal.Header closeButton className="custom-modal">
-          <Modal.Title className="custom-modal" style={{fontFamily:'agbalumo', textAlign:'center', textShadow: '-1px 0 white, 0 1px white, 1px 0 white, 0 -1px white',}}>Sacramento S.T.O.R.T.E</Modal.Title>
+          <Modal.Title className="custom-modal" style={{fontFamily:'agbalumo', textAlign:'center', textShadow: '-1px 0 white, 0 1px white, 1px 0 white, 0 -1px white',}}>Sacramento HandyDude</Modal.Title>
         </Modal.Header>
         <Modal.Body className="custom-modal" style={{fontFamily:'Merriweather', fontSize:'15px', textShadow: '-1px 0 white, 0 1px white, 1px 0 white, 0 -1px white',}}>
-          <p>Call <br /> 916-420-5764
+          <p>Call <br /> 1-888-888-8888
             <br />
             For a consult about services.</p>
         </Modal.Body>

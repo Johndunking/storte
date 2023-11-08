@@ -12,24 +12,24 @@ function Contact() {
           </div>
         </div>
         <div class="card-body">
-        <h5 class="card-title services-text" style={{paddingTop:'50px', fontSize:'25px'}}>Kieth, Tucker <br />
-        S.T.O.R.T.E <br />
+        <h5 class="card-title services-text" style={{paddingTop:'50px', fontSize:'25px'}}>John, Doe <br />
+        HandyDude<br />
         Owner & C.E.O</h5>
-        <p class="card-text" style={{paddingTop:'100px', paddingBottom:'20px', fontFamily: 'Merriweather', color:'#3D3322',textShadow: '-1px 0 white, 0 1px white, 1px 0 white, 0 -1px white', fontSize:'18px', fontWeight:'bold'}}>916-420-5764 <br /> Please give us a call <br /> for a full list of services offered.</p>
+        <p class="card-text" style={{paddingTop:'100px', paddingBottom:'20px', fontFamily: 'Merriweather', color:'#3D3322',textShadow: '-1px 0 white, 0 1px white, 1px 0 white, 0 -1px white', fontSize:'18px', fontWeight:'bold'}}>1-888-888-8888 <br /> Please give us a call <br /> for a full list of services offered.</p>
       </div>
         <div className="info-map">
-                    S.T.O.R.T.E,
+                    HandyDude,
                     <br />
                     United States,
                     <br />
                     Sacramento, California
-                    <span>Kieth, Tucker</span>
+                    <span>John, Doe</span>
                 </div>
                 <div className='map-wrap'>
                     <MapContainer center={[38.575764, -121.478851]} zoom={13}>
                     <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
                         <Marker position={[38.575764, -121.478851]}>
-                            <Popup>Call for a quote. <br />916-420-5764</Popup>
+                            <Popup>Call for a quote. <br />1-888-888-8888</Popup>
 
                         </Marker>
                     </MapContainer>

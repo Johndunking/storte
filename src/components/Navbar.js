@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import { Link } from 'react-scroll';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import storte2 from './assets/storte.png'
+import logo from './assets/logo.png'
 
 
 function CustomNavbar() {
@@ -23,7 +23,7 @@ function CustomNavbar() {
     
       <Container className="container justify-content-left">
       <Link to="home" className="navbar-brand custom-brand" onClick={collapseNav}>
-          <img src={storte2} alt="storte logo" style={{ width: '4rem' }} className='home-logo' />
+          <img src={logo} alt="storte logo" style={{ width: '2.5rem' }} className='home-logo' />
         </Link>
         
         <Navbar.Toggle aria-controls="basic-navbar-nav" className='navbar-toggler' ref={navButton}/>
